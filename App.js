@@ -5,8 +5,7 @@ import LoginScreen from './componentes/Login';
 import HomeScreen from './componentes/Home';
 import RegistroScreen from './componentes/Registro';
 import PerfilScreen from './componentes/Perfil';
-import SplashScreen from './SplashScreen';
-import { createStackNavigator } from '@react-navigation/stack';
+import SplashScreen from './componentes/SplashScreen';
 
 const Stack = createStackNavigator();
 
@@ -22,13 +21,4 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};

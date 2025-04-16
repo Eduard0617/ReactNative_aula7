@@ -30,9 +30,19 @@ const LoginScreen = ({navigation }) => {
 };
 
 const styles = StyleSheet.create({
-    constainer: {flex: 1, justifyContent: 'center', alignItems: 'center' },
-    input: { width: '80%', padding: 10, borderWidth: 1, marginVertical: 5},
-    error: { color: 'red' }
+    constainer: {flex: 1, 
+        justifyContent: 'center', 
+        alignItems: 'center' 
+    },
+    input: { 
+        width: '80%', 
+        padding: 10, 
+        borderWidth: 1, 
+        marginVertical: 5
+    },
+    error: { 
+        color: 'red' 
+    }
 });
 
 export default LoginScreen;

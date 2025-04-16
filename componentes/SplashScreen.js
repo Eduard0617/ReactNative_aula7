@@ -12,7 +12,7 @@ const SplashScreen = ({navigation}) => {
     }, [navigation]);
 
     return (
-        <View style={Styles.splashContainer}>
+        <View style={styles.splashContainer}>
             <Image source={{uri: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eliana-rezende.com.br%2F2021%2F08%2F29%2Fentenda-a-diferenca-entre-imagem-identidade-e-memoria-institucional%2F&psig=AOvVaw2MX26LxAdlPToMEWQAoLY0&ust=1744763830882000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKi_9ZPm2IwDFQAAAAAdAAAAABAh'}} style={styles.splashImage} />
             <ActivityIndicator size="large" color="#0000ff" style={styles.loader} />
         </View>
